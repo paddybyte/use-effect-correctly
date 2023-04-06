@@ -1,6 +1,9 @@
+'use client'
+
 import React from 'react'
 import styles from '@/styles/NavBar.module.scss'
 import Link from 'next/link'
+
 const NavBar = () => {
   return (
     <div className={styles.navBar}>

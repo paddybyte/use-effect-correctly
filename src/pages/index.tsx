@@ -1,8 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import styles from '@/components/styles/Home.module.css'
-import CatList from '@/components/CatList/CatList'
 import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -18,6 +15,7 @@ export default function Home() {
       </Head>
       <main>
         <Link href="/cats">Cats</Link>
+        <Link href="/interupting-cats">Iyterupted Cats</Link>
       </main>
     </>
   )
