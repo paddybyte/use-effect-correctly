@@ -1,0 +1,10 @@
+.cat {
+  display: flex;
+  gap: 2rem;
+
+  img {
+    height: 10rem;
+    width: 10rem;
+    object-fit: cover;
+  }
+}

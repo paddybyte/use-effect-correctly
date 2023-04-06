@@ -1,0 +1,9 @@
+version: '3.9'
+services:
+  paddy-byte-use-effect-correctly:
+    container_name: paddy-byte-use-effect-correctly
+    build: .
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./:/app

@@ -1,0 +1,12 @@
+.navBar {
+  padding: 2.2rem 0;
+  display: flex;
+  justify-content: space-between;
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+  }
+}
